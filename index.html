@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Alex Carter — Freelance Web Developer & IT Specialist</title>
+<meta name="description" content="Premium freelance web developer offering website, web app, mobile app, software development, web hosting, and IT support services." />
+<meta name="theme-color" content="#0b0f1a" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<canvas id="particles" aria-hidden="true"></canvas>
+
+<header class="nav glass" id="nav">
+  <a href="#home" class="brand"><span class="brand-mark"></span> Alex<span class="grad">.dev</span></a>
+  <nav>
+    <ul id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="blob blob-a"></div>
+  <div class="blob blob-b"></div>
+  <div class="container hero-inner">
+    <div class="hero-text reveal">
+      <span class="pill glass">👋 Available for freelance work</span>
+      <h1>Hi, I'm <span class="grad">Alex Carter</span><br/>I build premium digital products.</h1>
+      <p class="lead">Freelance full-stack developer crafting fast, beautiful and scalable websites, web apps, mobile apps and software for ambitious brands.</p>
+      <div class="cta">
+        <a href="#contact" class="btn btn-primary">Hire Me</a>
+        <a href="#portfolio" class="btn btn-ghost">View Work</a>
+      </div>
+      <div class="stats">
+        <div><strong>120+</strong><span>Projects</span></div>
+        <div><strong>80+</strong><span>Clients</span></div>
+        <div><strong>7y</strong><span>Experience</span></div>
+      </div>
+    </div>
+    <div class="hero-photo reveal">
+      <div class="photo-ring">
+        <div class="photo">
+          <img src="https://i.pravatar.cc/480?img=15" alt="Portrait of Alex Carter" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container two-col">
+    <div class="reveal">
+      <span class="eyebrow">About Me</span>
+      <h2>Designing & building digital experiences that <span class="grad">convert</span>.</h2>
+      <p>I'm a freelance developer with 7+ years of experience helping startups and enterprises ship reliable software. From sleek marketing sites to complex SaaS platforms, I deliver pixel-perfect, performance-obsessed work.</p>
+      <ul class="ticks">
+        <li>End-to-end product development</li>
+        <li>Performance, accessibility & SEO first</li>
+        <li>Clear communication, on-time delivery</li>
+      </ul>
+      <a href="#contact" class="btn btn-primary">Let's Talk</a>
+    </div>
+    <div class="about-card glass reveal">
+      <div class="kv"><span>Name</span><strong>Alex Carter</strong></div>
+      <div class="kv"><span>Role</span><strong>Full-Stack Developer</strong></div>
+      <div class="kv"><span>Location</span><strong>Remote · Worldwide</strong></div>
+      <div class="kv"><span>Email</span><strong>hello@alexcarter.dev</strong></div>
+      <div class="kv"><span>Freelance</span><strong class="ok">Available</strong></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="container">
+    <div class="head reveal">
+      <span class="eyebrow">Skills</span>
+      <h2>My Technical <span class="grad">Toolkit</span></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill reveal" data-level="95"><div class="row"><span>HTML / CSS / Tailwind</span><b>95%</b></div><div class="bar"><i></i></div></div>
+      <div class="skill reveal" data-level="92"><div class="row"><span>JavaScript / TypeScript</span><b>92%</b></div><div class="bar"><i></i></div></div>
+      <div class="skill reveal" data-level="90"><div class="row"><span>React / Next.js</span><b>90%</b></div><div class="bar"><i></i></div></div>
+      <div class="skill reveal" data-level="85"><div class="row"><span>Node.js / Express</span><b>85%</b></div><div class="bar"><i></i></div></div>
+      <div class="skill reveal" data-level="80"><div class="row"><span>React Native / Flutter</span><b>80%</b></div><div class="bar"><i></i></div></div>
+      <div class="skill reveal" data-level="88"><div class="row"><span>Databases / DevOps</span><b>88%</b></div><div class="bar"><i></i></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <div class="container">
+    <div class="head reveal">
+      <span class="eyebrow">Services</span>
+      <h2>What I <span class="grad">Offer</span></h2>
+      <p class="muted">Full-cycle digital services tailored to your business goals.</p>
+    </div>
+    <div class="cards">
+      <article class="card glass reveal"><div class="icon">🌐</div><h3>Website Development</h3><p>Lightning-fast, SEO-optimized marketing sites and landing pages.</p></article>
+      <article class="card glass reveal"><div class="icon">🧩</div><h3>Web App Development</h3><p>Custom SaaS dashboards, portals and tools built to scale.</p></article>
+      <article class="card glass reveal"><div class="icon">📱</div><h3>Mobile App Development</h3><p>Cross-platform iOS & Android apps with native-grade UX.</p></article>
+      <article class="card glass reveal"><div class="icon">💻</div><h3>Software Development</h3><p>Bespoke desktop & internal tools that automate your workflow.</p></article>
+      <article class="card glass reveal"><div class="icon">☁️</div><h3>Web Hosting</h3><p>Managed cloud hosting with security, backups and 99.99% uptime.</p></article>
+      <article class="card glass reveal"><div class="icon">🛠️</div><h3>IT Support</h3><p>Ongoing maintenance, monitoring and on-demand technical help.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="section">
+  <div class="container">
+    <div class="head reveal">
+      <span class="eyebrow">Portfolio</span>
+      <h2>Selected <span class="grad">Projects</span></h2>
+    </div>
+    <div class="gallery">
+      <a class="tile reveal" href="#"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=70" alt=""><div class="overlay"><h4>Finance Dashboard</h4><span>SaaS · React</span></div></a>
+      <a class="tile reveal" href="#"><img src="https://images.unsplash.com/photo-1517292987719-0369a794ec0f?w=800&q=70" alt=""><div class="overlay"><h4>E-commerce Platform</h4><span>Next.js · Stripe</span></div></a>
+      <a class="tile reveal" href="#"><img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=70" alt=""><div class="overlay"><h4>Fitness Mobile App</h4><span>React Native</span></div></a>
+      <a class="tile reveal" href="#"><img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&q=70" alt=""><div class="overlay"><h4>Agency Website</h4><span>Marketing</span></div></a>
+      <a class="tile reveal" href="#"><img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&q=70" alt=""><div class="overlay"><h4>Inventory Software</h4><span>Desktop · Electron</span></div></a>
+      <a class="tile reveal" href="#"><img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&q=70" alt=""><div class="overlay"><h4>Cloud Hosting Panel</h4><span>DevOps</span></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <div class="container">
+    <div class="head reveal">
+      <span class="eyebrow">Experience & Achievements</span>
+      <h2>A track record of <span class="grad">delivery</span>.</h2>
+    </div>
+    <div class="timeline">
+      <div class="t-item reveal"><div class="t-dot"></div><div class="t-body glass"><h4>Senior Full-Stack Developer · Freelance</h4><span>2022 — Present</span><p>Leading end-to-end product builds for clients across 12 countries.</p></div></div>
+      <div class="t-item reveal"><div class="t-dot"></div><div class="t-body glass"><h4>Lead Engineer · Northwind SaaS</h4><span>2019 — 2022</span><p>Scaled platform from 2k to 120k users; led a team of 6 engineers.</p></div></div>
+      <div class="t-item reveal"><div class="t-dot"></div><div class="t-body glass"><h4>Frontend Developer · Pixelhaus</h4><span>2017 — 2019</span><p>Delivered 40+ award-winning marketing websites.</p></div></div>
+      <div class="t-item reveal"><div class="t-dot"></div><div class="t-body glass"><h4>Awwwards SOTD · 3× Winner</h4><span>2020 — 2024</span><p>Recognised for design and technical execution.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section">
+  <div class="container">
+    <div class="head reveal">
+      <span class="eyebrow">Testimonials</span>
+      <h2>What clients <span class="grad">say</span></h2>
+    </div>
+    <div class="cards">
+      <figure class="card glass reveal"><blockquote>"Alex delivered beyond expectations. Our conversions went up 60% in a month."</blockquote><figcaption><img src="https://i.pravatar.cc/80?img=32" alt=""><div><strong>Sarah Lin</strong><span>CEO, Brightly</span></div></figcaption></figure>
+      <figure class="card glass reveal"><blockquote>"Best developer we've worked with. Communication and quality were elite."</blockquote><figcaption><img src="https://i.pravatar.cc/80?img=12" alt=""><div><strong>Marcus Reid</strong><span>CTO, Northwind</span></div></figcaption></figure>
+      <figure class="card glass reveal"><blockquote>"Pixel-perfect, on time, on budget. Will hire again 10/10."</blockquote><figcaption><img src="https://i.pravatar.cc/80?img=47" alt=""><div><strong>Amelia Cruz</strong><span>Founder, Lumen</span></div></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container two-col">
+    <div class="reveal">
+      <span class="eyebrow">Contact</span>
+      <h2>Let's build something <span class="grad">great</span>.</h2>
+      <p class="muted">Got a project in mind? Send a message and I'll reply within 24 hours.</p>
+      <ul class="contact-list">
+        <li>📧 hello@alexcarter.dev</li>
+        <li>📞 +1 (555) 123-4567</li>
+        <li>📍 Remote · Worldwide</li>
+      </ul>
+      <div class="socials">
+        <a href="#" aria-label="GitHub" class="s-btn glass">GH</a>
+        <a href="#" aria-label="LinkedIn" class="s-btn glass">IN</a>
+        <a href="#" aria-label="Twitter" class="s-btn glass">X</a>
+        <a href="#" aria-label="Dribbble" class="s-btn glass">DR</a>
+        <a href="#" aria-label="Instagram" class="s-btn glass">IG</a>
+      </div>
+    </div>
+    <form id="contactForm" class="glass form reveal" novalidate>
+      <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" required minlength="2" /></div>
+      <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required /></div>
+      <div class="field"><label for="subject">Subject</label><input id="subject" name="subject" type="text" required minlength="3" /></div>
+      <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required minlength="10"></textarea></div>
+      <button class="btn btn-primary" type="submit">Send Message</button>
+      <p class="form-msg" id="formMsg" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container foot">
+    <p>© <span id="year"></span> Alex Carter. All rights reserved.</p>
+    <p class="muted">Crafted with passion · Built with HTML, CSS & JS</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/15551234567" class="whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" fill="white"><path d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.6l7.9-2.1c2.3 1.3 4.9 1.9 7.7 1.9 8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.4c-2.5 0-4.9-.7-7-2L4.5 28l1.3-4.7-.3-.5C4.2 20.7 3.5 18.4 3.5 16 3.5 9.1 9.1 3.5 16 3.5S28.5 9.1 28.5 16 22.9 28.8 16 28.8zm7.1-9.4c-.4-.2-2.3-1.1-2.6-1.2-.4-.1-.6-.2-.9.2-.3.4-1 1.2-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3-1.9-1.1-1-1.9-2.2-2.1-2.6-.2-.4 0-.6.2-.8.2-.2.4-.4.6-.7.2-.2.3-.4.4-.6.1-.2 0-.5 0-.7s-.9-2.2-1.2-3c-.3-.7-.7-.6-.9-.7H10c-.2 0-.6.1-.9.4-.3.4-1.2 1.2-1.2 2.9 0 1.7 1.2 3.4 1.4 3.6.2.2 2.4 3.6 5.8 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 2-..8 2.3-1.6.3-.8.3-1.5.2-1.6 0-.1-.3-.2-.7-.4z"/></svg>
+</a>
+
+<button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
